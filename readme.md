@@ -1,5 +1,8 @@
 # Github.gollum-editor-help Hider
 
+How To
+	https://developer.chrome.com/extensions/getstarted#unpacked
+
 ## Author
 
 ## Contributors
