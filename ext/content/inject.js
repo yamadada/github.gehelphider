@@ -1,0 +1,1 @@
+$('#gollum-editor-help').hide();

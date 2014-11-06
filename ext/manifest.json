@@ -1,0 +1,26 @@
+{
+  "name": "GitHub.gollum-editor-help Hider",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Chrome extension that hide gollum-editor-help.",
+  "homepage_url": "https://github.com/yamadada/github.gehelphider",
+  "icons": {
+  },
+  "permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "css": [
+      ],
+      "js": [
+        "content/jquery-2.1.0.min.js",
+        "content/inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
