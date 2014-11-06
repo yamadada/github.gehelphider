@@ -15,10 +15,7 @@
         "https://github.com/*"
       ],
       "css": [
-      ],
-      "js": [
-        "content/jquery-2.1.0.min.js",
-        "content/inject.js"
+        "content/gehider.css"
       ],
       "run_at": "document_end"
     }
